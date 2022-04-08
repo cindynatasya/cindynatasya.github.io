@@ -1,0 +1,419 @@
+#bungkus-atas{
+    background-color: #ECF1FD;
+}
+
+/* Navbar */
+
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    font-weight: 500;
+    color: #FF023F;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #FF023F;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #7E8CAC;
+}
+
+/*  */
+
+
+/* Header */
+.color-Acsen{
+    color : #FF023F;
+}
+
+.header .header-title{
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.header .btn-get{
+    background-color: #FF023F;
+    padding: 0.75rem 3rem;
+    border-radius: 16px;
+}
+
+.header .btn-get:hover{
+    background-color: #DB014A !important;
+}
+
+.header .card{
+    border-radius: 1rem;
+    background-color: #F8F9FD;
+    width: 350px;
+    height: 307px;
+    padding: 42px;
+}
+
+.header .card:hover{
+    box-shadow: 0px 8px 20px 4px rgba(0, 0, 0, 0.16);
+}
+
+.header .card svg{
+    color: #7E8CAC;
+}
+
+.header .card h1{
+    font-weight: 700;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+.header .card p{
+    line-height: 200%;
+}
+
+.header .card:hover h1, svg{
+    color: #FF023F;
+}
+
+.header .left-card{
+    margin-right: 20px;
+    
+}
+
+/* .header .right-card{
+
+    left: 730px;
+top: 1427px;
+    padding: 1.25rem 1.5rem;
+}  */
+
+
+.header .social-media{
+    padding-bottom: 30px;
+}
+
+.header .social-media svg{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #7E8CAC;
+
+}
+
+.header .social-media svg:hover{
+    color: #FF023F !important;
+}
+
+.header hr{
+    width: 5%;
+    height: 5px;
+    color: #7E8CAC;
+    margin-bottom: 20px;
+    opacity: 100%;
+}
+/*  */
+
+
+/* Feature */
+.feature .feature-card{
+    background-color: #F9FAFF;
+    padding: 1.875rem;
+    border-radius: 1.625rem;
+    margin-right: 16px;
+}
+/*  */
+
+/* About Me */
+#about-me{
+    padding-top: 100px;
+}
+
+#about-me p{
+    line-height: 200%;
+}
+
+/*  */
+
+/* Skill */
+#skill{
+    padding-top: 16px;
+}
+
+.header .skill-icon img{
+    height: 50px;
+    margin: 16px;
+}
+
+/*  */
+
+/* Serti */
+#serti img{
+    width: 250px;
+}
+
+#serti .img-serti{
+    margin-right: 20px;
+}
+/*  */
+
+/* Resume */
+#resume{
+    background-color: #F8F9FD;
+}
+
+#resume p{
+    line-height: 200%;
+}
+
+#resume .btn-sec{
+    background-color: transparent;
+    border: 2px solid #FF023F;
+    padding: 0.55rem 2rem;
+    border-radius: 16px;
+}
+
+#resume .card{
+    border-radius: 1rem;
+    background-color: #ECF1FD;
+    width: 480px;
+    height: 400px;
+    padding: 32px;
+}
+
+#resume .header .card h1{
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+#resume .card p{
+    line-height: 200%;
+}
+
+#resume ul{
+    line-height: 200%;
+}
+#resume .left-card{
+    margin-right: 1000px;
+}
+/* #resume .edu-col h1{
+    font-size: 28px;
+} */
+/*  */
+
+/* Portfolio */
+#portfolio{
+    padding-top: 100px;
+}
+#portfolio .btn-sec{
+    background-color: transparent;
+    border: 2px solid #FF023F;
+    padding: 0.55rem 2rem;
+    border-radius: 16px;
+}
+#portfolio img{
+    width: 380px;
+}
+
+#portfolio p{
+    line-height: 200%;
+}
+
+#portfolio .jarak-konten{
+    margin-top: 50px
+}
+
+#portfolio hr{
+    width: 25%;
+    height: 5px;
+    color: #7E8CAC;
+    margin-bottom: 20px;
+    opacity: 100%;
+}
+
+#portfolio .jarak-judul{
+    margin-top: 100px
+}
+
+#portfolio .another-design img{
+    width: 360px;
+}
+
+/*  */
+
+/* Contact */
+#contact{
+    background-color: #F8F9FD;
+}
+
+#contact img{
+    width: 50px;
+    height: 50px;
+}
+
+#contact p{
+    line-height: 10%;
+}
+
+/*  */
+
+/* Featured Game */
+.featured-game .overflow-setting{
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+
+.featured-game .featured-game-card{
+    transition: all 0.4s;
+    border-radius: 1.625rem;
+    width: 205px;
+    height: 270px;
+}
+
+.featured-game .featured-game-card:hover{
+    transition: all 0.4s;
+    border: 4px solid #2B2467;
+}
+
+.featured-game .featured-game-card:hover img{
+    transition: all 0.4s;
+    filter: blur(40px);
+    width: 181px;
+    height: 246px;   
+}
+
+.featured-game .featured-game-card .blur-sharp{
+    overflow: hidden;
+    border-radius: 1.625rem;
+}
+.featured-game .featured-game-card:hover .blur-sharp{
+    width: 192px;
+    border: 7px solid white;    
+}
+
+.featured-game .cover{
+    transition: all 0.4s;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    height: -webkit-fill-available;
+}
+
+.featured-game .featured-game-card:hover .cover{
+    opacity: 1;
+}
+
+.featured-game .game-icon{
+    margin-top: 3.125rem;
+}
+
+@media (min-width:768px){
+    .featured-game .overflow-setting{
+        overflow: hidden;
+    }
+}
+
+/*  */
+
+
+/* Reached */
+.reached .vertical-line{
+    width: 1px;
+    background-color: #E7EAF5;
+    height: 94px;
+}
+
+.reached .horizontal-line{
+    width: 240px;
+    background-color: #E7EAF5;
+    height: 1px;
+}
+/*  */
+
+/* Story */
+.story .btn-read{
+    padding: 0.75rem 3rem;
+    background-color: #E7EAF5;
+}
+
+.story .img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+/*  */
+
+
+/* Footer */
+footer{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #F9FAFF;
+}
+
+footer ul{
+    margin-bottom: 0;
+}
+
+footer ul li a{
+    transition: 0.2s;
+}
+
+footer ul li a:hover{
+    color: #4D17E2;
+    text-decoration: underline !important;
+    background-color: transparent;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ }
+
+ @media (max-width:768px) {
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    /* Header */
+    
+    /*  */
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    /* Navbar */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.25rem;
+        padding-left: 1.25rem;
+    }
+    /*  */
+
+    /* Header */
+.header .underline-blue {
+    text-decoration: none; 
+    position: relative; 
+  }  
+
+.header .underline-blue:after {
+    position: absolute;
+    content: '';
+    height: 8px;
+    bottom: 11px;
+       margin: 0 auto;
+    left: 0;
+  right: 0;
+    width: 100%;
+    background: #00BAFF;
+    z-index: -10;
+}
+/*  */
+
+    /* Featured Game */
+    .featured-game .featured-game-card:hover .blur-sharp{
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+
